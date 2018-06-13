@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>ES6</title>
+</head>
+<body>
+	  
+</body>
+<script>
+const picasso = {
+  fullName: 'Pablo Picasso',
+  paintings: ['Guernica', 'Girl before a Mirror', 'Portrait of Dora Maar'],
+  listPaintings: function () {
+    this.paintings.forEach((painting) => {
+      console.log(`${this.fullName}'s paintings include: ${painting}`);
+    });
+  }
+};
+</script>
+</html>
